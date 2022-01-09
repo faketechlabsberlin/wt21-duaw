@@ -1,29 +1,29 @@
 import React from "react";
 import axios from "axios";
-import ProjectsList from "./ProjectsList";
+
 
 class App extends React.Component {
-
-    state = { repos : []};
+    state = { repos : []}
 
     getRepos = async () => {
         const response = await axios.get(`https://api.github.com/orgs/faketechlabsberlin/repos`, {
             headers: {
-                'Authorization': `token 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`
+                'Authorization': `token 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`
             }
             })
             .catch((error) => {
             console.error(error)
-            });
-            this.setState({ repos: response.data });
+            })
+            console.log(response.data);
             return response.data;
+            
     };
     
 
     render() {
         return (
             <div className="ui container" style={{marginTop: "15px"}}>
-                < ProjectsList projects={this.state.repos} />
+                <ul><li>Repositories</li></ul>
             </div>
         );
     }
@@ -36,9 +36,4 @@ export default App;
 
 
 
-// console.log(response.data);
-
-// Found: {this.state.repos.length} Projects
-
 // <SearchBar bySubmit={this.onSearchSubmit} />
-
