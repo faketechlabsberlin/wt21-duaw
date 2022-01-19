@@ -1,0 +1,33 @@
+{
+    "name": "[project_name]",
+    "nameFull": "[project_name_full]",
+    "videoUrl": "[project_video_url]",
+    "prototypeUrl": "[project_protype_url]",
+    "techlabsUrl": "https://techlabs.org/",
+    "location": "[Berlin]",
+    "semester": "[WiSe2021]",
+    "status": "[searching for funding]",
+    "tools": ["Notion", "Fondora", "Postman"],
+    "membersContacts": [
+        {
+            "name": "Nickname1",
+            "nameFull": "FirstName1, SecondName1",
+            "track": "UK",
+            "githubName": "GithubName1",
+            "githubUrl": "https://api.github.com/users/TechLabs-Berlin/",
+            "linkedinUrl": "https://linkedin",
+            "emailAdress": "Nickname1@provider.com",
+            "display": true
+        },
+        {
+            "name": "[Nickname]",
+            "nameFull": "[FirstName], [SecondName]",
+            "track": "[track]",
+            "githubName": "[GithubName]",
+            "githubUrl": "[github_url]",
+            "linkedinUrl": "[linkedin_url]",
+            "emailAdress": "[email_adress]",
+            "display": true
+        }
+        ]
+}
