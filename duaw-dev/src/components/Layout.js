@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
     // const img = <img style={{marginTop: 10}} alt="logo" src="/logo.svg"/>
     
     return (
-        <div>
+        <Box>
             <AppBar color='secondary' position='static'>
                 <Toolbar>
                      <Box
@@ -65,7 +65,7 @@ const Layout = ({ children }) => {
                 <div ></div>
                 {children}
             </div>
-        </div>
+        </Box>
     )
 }
 
