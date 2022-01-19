@@ -1,0 +1,28 @@
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+h1 {
+  color: white;
+  background-color: #0a3147;
+}
+
+.cardHolder {
+  margin: 20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  position: relative;
+  margin: 20px;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+.menuBar {
+  display: flex;
+}
