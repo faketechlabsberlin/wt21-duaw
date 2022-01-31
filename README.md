@@ -1,5 +1,5 @@
 # DUAW
-\
+
 ## About
 \
 Welcome to the DUAW project! DUAW stands for visit, get together and communicate in Bisaya language and is also an abbreviation for the different bootcamp tracks of TechLabs: **D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development! \
