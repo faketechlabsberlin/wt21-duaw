@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="vieport" content="width=\, inital-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/> 
+        <title>Fetch JSON from GitHubAPI</title>
+    </head>
+</html>
+
+
+<body>
+ <!-- DISPLAY OF RESULTS
+    note for all : ",style="color:blue"></span><br />"" can be replaced with "></span><br />" -->
+ 
+    <!-- 1: Results from First API request:-->
+   <h1> 1: Which repositories are in the github organisation faketechlabs? </h1>
+        <p> 
+            test costum url:    <span id="api_url_test", style="color:blue"></span><br /> <br />
+            First API request:  <span id="api_url1",     style="color:blue"></span><br /><br />
+            total number of repos: <span id="number_repos", style="color:blue"></span><br />
+            alldic:             <span id="alldic",       style="color:blue"></span><br /> <br />
+            last called repo:   <span id="name_repos",   style="color:blue"></span><br />
+    
+        </p>
+ <!-- 2: Results from Second API request:-->
+    <h1> 2: What is in the repository "test-repository-1"? </h1>
+        <p> 
+            api url:            <span id="api_url2",      style="color:blue"></span><br /> <br />
+            and the results from the second API requests:  <br /><br />
+            name:               <span id="name",          style="color:blue"></span><br /> 
+            git url:            <span id="git_url",       style="color:blue"></span><br /> 
+            html:               <span id="html_url",      style="color:blue"></span><br /> 
+            description:        <span id="description",   style="color:blue"></span><br /> 
+            topics:             <span id="topics",        style="color:blue"></span><br /> 
+            languages:          <span id="languages",     style="color:blue"></span><br />  
+            updated at:         <span id="updated_at",    style="color:blue"></span><br /> <br /><br />
+            all languages:      <span id="alllanguages",  style="color:red"></span> (needs further work)<br /> 
+        </p>
+ 
+<!-- 3: Results from Third API request:-->
+    <h1> 3: What is in the project-information file? </h1>
+        <p> 
+            api_url3:           <span id="api_url3",      style="color:blue"></span><br />  <br />
+            
+            and the results from the third API requests (file: project-information.json):  <br /> <br />
+            
+            project-information-file-content: <span id="project-information-file-content", style="color:blue"></span><br />  
+            encoding:           <span id="encoding",      style="color:red"></span><br /> <br /> 
+            
+            encoded (via JSON.parse(atob(data3.content))):<span id="encoded", style="color:blue"></span><br />  <br /> 
+            
+            examplary information from project-information.json file: <br /> 
+            project_name:       <span id="project_name",    style="color:blue"></span><br />  
+            project_tools:      <span id="project_tools",   style="color:blue"></span><br /> 
+            project_status:     <span id="project_status",  style="color:blue"></span><br />  <br /> 
+        </p>
+    <h1> 4: Further Files and Information </h1>
+        <p> 
+            e.g. display of project picture: (needs further work!)  <br /> <br />
+        </p>
+
+
+ <!-- API REQUESTS AND CREATION OF OUTPUT VARIABLES-->
+    <script>
+// 0: Create custom urls for future API requests:
+        const url = "https://api.github.com" ;
+        const org = "faketechlabsberlin";
+        const inital_repo = "st21-stress-tracker";
+        const project_info_folder = "project-information";
+        const project_info_file = "project-information.json";
+        const project_info_path = "project-information.json";
+        
+        var api_url_test = new URL(url+"/orgs"+"/"+org+"/repos");
+        document.getElementById("api_url_test").textContent = api_url_test;
+
+// 1: First API request:
+        // const api_url1 = 'https://api.github.com/orgs/faketechlabsberlin/repos';
+        const api_url1 = new URL(url+"/orgs"+"/"+org+"/repos");
+        document.getElementById("api_url1").textContent = api_url1;
+        async function getData1() {
+            var number_repos = 0;                       //initialise number
+            var name_repos = "";                        //initialise string
+            var dict = {};                              //initialise dictionary
+            
+            const response = await fetch(api_url1);
+            const data = await response.json();
+            
+            for(var element in data) {                  // iterate through each element of the json response
+                if (data.hasOwnProperty(element)) {
+                    number_repos++;                     // count the number of repositories
+                    name_repos = data[element].name;    // retrieve the information "name" from each element
+                    dict[number_repos] =  name_repos;   // safe the "name" with the number of the repository in a dictionary
+                }
+                document.getElementById("number_repos").textContent = number_repos;
+                document.getElementById("name_repos").textContent = name_repos;
+            
+                // create a list of the elements from the dictionary:
+                const list = Object.entries(dict);
+                document.getElementById("alldic").textContent = list;
+            }
+        }
+        getData1();
+
+// 2: Second API request:
+        // const api_url2 = 'https://api.github.com/repos/faketechlabsberlin/test-repository-1';
+        const api_url2 = new URL(url+"/repos"+"/"+org+"/"+inital_repo);
+        async function getData2() {
+            const response = await fetch(api_url2);
+            const data = await response.json();
+            document.getElementById("api_url2").textContent = api_url2;
+            
+            document.getElementById("git_url").textContent = data.git_url;
+            document.getElementById("html_url").textContent = data.html_url;
+            document.getElementById("name").textContent = data.name;
+            document.getElementById("topics").textContent = data.topics;
+            document.getElementById("description").textContent = data.description;
+            document.getElementById("languages").textContent = data.language;
+            document.getElementById("updated_at").textContent = data.updated_at;
+        }
+        
+        // needs further work:
+        //const api_url_languages = 'https://api.github.com/repos/faketechlabsberlin/test-repository-1/languages';
+        const api_url_languages = new URL(url+"/repos"+"/"+org+"/"+inital_repo+"/languages");
+        async function getData_languages() {
+            const response = await fetch(api_url_languages);
+            const data_languages = await response.json();
+            document.getElementById("alllanguages").textContent = data_languages.HTML;
+        }
+    
+        getData2();
+        getData_languages();
+
+// 3: Third API request:        
+        //const api_url3 = 'https://api.github.com/repos/faketechlabsberlin/test-repository-1/contents/project-information/project-information.json';
+        const api_url3 = new URL(url+"/repos"+"/"+org+"/"+inital_repo+"/contents"+"/"+project_info_path);
+        
+        async function getData3() {
+            const response = await fetch(api_url3);
+            const data3 = await response.json();
+            document.getElementById("api_url3").textContent = api_url3;
+            
+            // receive json response with information about encoded content 
+            document.getElementById("project-information-file-content").textContent = data3.content;
+            document.getElementById("encoding").textContent = data3.encoding;
+            document.getElementById("encoded").textContent = atob(data3.content)
+            
+            // decode base64 encoded file content 
+            var data4 = JSON.parse(atob(data3.content))
+            document.getElementById("project_name").textContent = data4.project_name;
+            document.getElementById("project_tools").textContent = data4.project_tools;
+            document.getElementById("project_status").textContent = data4.project_status;
+
+        }
+
+        getData3();
+
+// 4: Future API requests:
+    // get picture (jpg): https://api.github.com/repos/faketechlabsberlin/test-repository-1/contents/SIPI_Jelly_Beans_4.1.07.jpg
+   
+   </script>
+</body>
+
