@@ -6,18 +6,17 @@ import ProjectDetail from "./components/ProjectDetail";
 import { ThemeProvider } from '@mui/material/styles';
 import theme from "./theme";
 import Layout from "./components/Layout";
+import Wiki from "./components/Wiki";
 
-/**
- * TODO: use `document.getElementById` preferably,
- * it's been tested and proved to be 10x faster than other querying methods
- */
+
 ReactDom.render(
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={theme} >
   <Router>
     <Layout>
   <Routes>
     <Route path="/" element={<App />} />
     <Route path="/:repositoryName" element={<ProjectDetail />} />
+    <Route path="/wiki" element={<Wiki />} />
   </Routes>
   </Layout>
   </Router>
