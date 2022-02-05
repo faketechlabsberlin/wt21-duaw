@@ -28,14 +28,13 @@ As a future outlook further information about the projects, like project keyword
 <p align="center">
     <img alt="development of the recommendation system" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Impressions%20on%20DS%20results.png" width="3000" />
 </p>
-Some impressions from the development of the recommendation system:
-(left:  word cloud of project descriptions, right: heatmap, comparison of vectorization and similarity analysis algorithms)
+Some impressions from the development of the recommendation system: (left:  word cloud of project descriptions, right: heatmap, comparison of vectorization and similarity analysis algorithms)
 
 
 ##### Workflow of the DUAW project from Data Science perspective
 
 <p align="center">
-    <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/DUAW-%20Building%20of%20a%20recommendation%20system.ipynb" width="3000" />
+    <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Workflow-DUAW.png" width="3000" />
 </p>
 <h1 align="center">
   TerraViz
