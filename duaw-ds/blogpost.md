@@ -37,5 +37,5 @@ Some impressions from the development of the recommendation system: (left:  word
     <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Workflow-DUAW.png" width="600" />
 </p>
 
-Overall it was a very interesting project and journey and I am so glad to have been able to work closely with our web developer during the project, it was always a pleasure to talk things through. Additionally to our WD Mentor Bernardo I would like to thank Max, David and Mattis for their input for coming up with the structure for the recommendation system.
+Overall it was a very interesting project and journey and I am so glad to have been able to work closely with our web developer during the project, it was always a pleasure to talk things through. Additionally to our WD Mentor Bernardo, I would like to thank Max, David and Mattis for their input for coming up with the structure for the recommendation system.
 
