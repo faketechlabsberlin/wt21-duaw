@@ -2,7 +2,7 @@
 # Data science
 After an intense academic phase it was possible to start working closely in a team on a real project. Briefly learning Data Science in the DUAW project, meant working with information that is not yet in a well defined data set, implementing a backend structure to acquire this information and building a recommendation model based on text data. The journey can be summarised in a few words: "That sounds very cool. I don't know how build that… yet"
 
-### Building a backbone and collecting data for display on DUAW Website 
+## Building a backbone and collecting data for display on DUAW Website 
 Initially WD and DS needed to identify a way to collect information to be displayed on the website and since we were working without a backend, we were going to fetch everything  through the Github API https://docs.github.com/en/rest. 
 Therefore we decided our "Backend" will be the well documented Github repository and clear API calls, which delivers all data and information.
 
@@ -15,7 +15,7 @@ For the technical details of this part please refer to the file (DS readme).
 
 We prepared a https://github.com/faketechlabsberlin organisation and forked existing Techlabs projects there. Since some desired information cannot be provided directly it's important to add additional files that can be accessed via the API for display on the Website. In an iterative process we came up with the design for the following additional file that needs to be manually added to each repository, *project-description.json* in which the team provides further information e.g. about the members and their respective tracks. The provided JSON format that can be consumed via the API for display on the Website. 
 
-### Recommendation system based on Project description
+## Recommendation system based on Project description
 
 Initially we came up with several ideas for interesting data visualisation projects that could be displayed on an engaging Website about Techlabs graduation projects. Either giving insights about technical knowledge of participants and using the Stack Overflow Annual Developer Survey as a guiding dataset for analysis. Or giving insights about the projects displayed on the DUAW project. 
 
