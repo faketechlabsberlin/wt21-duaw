@@ -33,7 +33,7 @@ As a future outlook further information about the projects, like project keyword
 Some impressions from the development of the recommendation system: (left:  word cloud of project descriptions, right: heatmap, comparison of vectorization and similarity analysis algorithms)
 
 
-##### Workflow of the DUAW project from Data Science perspective
+## Workflow of the DUAW project from Data Science perspective
 
 <p align="center">
     <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Workflow-DUAW.png" width="600" />
