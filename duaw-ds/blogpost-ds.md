@@ -1,5 +1,21 @@
+# The Making of DUAW: A project made from us for all of us
 
-# Data science
+## An increadible learning curve for Web development and Data Science
+A lot of ideas for a nice project, but thats when it started. The ideas needed to be brought to live, which required a well documented backbone structure and a detailed implementation from the one Web developer and the one Data scientist in the team.
+
+## Web development
+The web development track was one challenge after another, and I loved it! 
+
+It started with a large volume of materials that I had to learn in less than a couple of months ranging from Bootstrap and JS to React and APIs, just to mention some. I was already overwhelmed with that whole amount of information that I faced the complexity of putting into practice those learnings into a real-world project. And as if it was not enough I also found myself after just a week to be the only one left in the dev team. And it was a blessing, for learning more! 
+
+In the first two weeks, I was lost. I was feeling so unprepared that left me with small optimism about the delivery of the project. But everything got better day after day by proving to myself my knowledge. I initiated the process by defining the function that will fetch the necessary milestones for developing DUAW and would return me a success. Then I mapped through these milestones, filtered them based on their priority, and invoked them one after another until I did it all.
+
+Through this process, of course, I faced a lot of roadblocks where each one turned to valuable learning. I was alone with no backend knowledge and learned how to use the Github repository of the projects as our backend. I had countless difficulties building the logic behind our app and learned how to search for solutions, understand them and adapt them to my code with my specific purpose. I had time constraints and learned how to use other technologies such as MUI to accelerate my work, and many more. All of this would not be possible without the invaluable support of my mentor Bernardo Sunderhus. 
+
+As a UX designer, I started this course to gain a better understanding of frontend development to be a better UX designer. However, it turned into such a fascinating experience that left me with so much joy for all I learned so far that I can only call it the start of a long journey to become a better developer every day. 
+
+
+##  Data science
 After an intense academic phase it was possible to start working closely in a team on a real project. Briefly learning Data Science in the DUAW project, meant working with information that is not yet in a well defined data set, implementing a backend structure to acquire this information and building a recommendation model based on text data. 
 The journey can be summarised in a few words: "That sounds very cool. I don't know how build that… yet"
 
