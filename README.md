@@ -14,4 +14,38 @@ Technically, DUAW can be understood as a wrapper for GitHub repos. The project t
 
 ## UX links
 
-## Other topics...
+## Running the project on localhost
+
+After clonning the repository, and having the complete project files saved in a folder on you computer, open the project folder with your desired editor.
+
+To run the frontend part of the project:
+
+
+To run the backend part of the project:
+- To install all the backend dependencies: `npm install`
+- run `npm`
+
+To update the recommendations for display on the website:
+- The following python packages are needed: `XXXXX`
+- execute `recomender-system.ipynb` (in `Jupyter Notebook`)
+- update the content of the `recomendations.json` file:  https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/recomendations.json
+- the last step will require a pull request and merging by a member of the DUAW team
+
+## Team members
+
+- UX | David
+- UX | Constantin
+- UX | Celine
+- WD | Javad
+- DS | Constanze
+
+## Mentor
+- Bernardo
+
+## Tech Stack
+- Git & GitHub
+- Rest API
+- Node.js and Express
+- Python3
+- Python libraries: pandas, numpy, matplotlib, 
+- Jupyter Notebook
