@@ -34,8 +34,8 @@ To update the recommendations for display on the website:
 ## Team members
 
 - UX | David
-- UX | Constantin
 - UX | Celine
+- UX | Constantin
 - WD | Javad
 - DS | Constanze
 
