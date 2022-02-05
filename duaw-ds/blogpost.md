@@ -7,7 +7,7 @@ Initially WD and DS needed to identify a way to collect information to be displa
 Therefore we decided our "Backend" will be the well documented Github repository and clear API calls, which delivers all data and information.
 
 <p align="center">
-    <img alt="Backend Structure for DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Backend-DUAW.png" width="60" />
+    <img alt="Backend Structure for DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Backend-DUAW.png" width="4000" />
 </p>
 <h1 align="center">
   TerraViz
