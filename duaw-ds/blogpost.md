@@ -7,7 +7,7 @@ Initially WD and DS needed to identify a way to collect information to be displa
 Therefore we decided our "Backend" will be the well documented Github repository and clear API calls, which delivers all data and information.
 
 <p align="center">
-    <img alt="Backend Structure for DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Backend-DUAW.png" width="3000" />
+    <img alt="Backend Structure for DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Backend-DUAW.png" width="400" />
 </p>
 
 We identified the possible large data set that can be reached by the Github API, understood its elements and how we can access them. After the ideation session WD and DS understood what kind of information we would like to display, where to get this information from (Github), how the data can be provided (directly, via API and by providing further files).
