@@ -16,7 +16,7 @@ Technically, DUAW can be understood as a wrapper for GitHub repos. The project t
 
 ## Running the project on localhost
 
-After clonning the repository, and having the complete project files saved in a folder on you computer, open the project folder with your desired editor.
+After clonning the repository, and having the complete project files saved in a folder on your computer, open the project folder with your desired editor.
 
 To run the frontend part of the project:
 
