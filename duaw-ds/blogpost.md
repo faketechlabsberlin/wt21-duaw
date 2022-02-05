@@ -6,6 +6,13 @@ After an intense academic phase it was possible to start working closely in a te
 Initially WD and DS needed to identify a way to collect information to be displayed on the website and since we were working without a backend, we were going to fetch everything  through the Github API https://docs.github.com/en/rest. 
 Therefore we decided our "Backend" will be the well documented Github repository and clear API calls, which delivers all data and information.
 
+<p align="center">
+    <img alt="Backend Structure for DUAW project" src="https://github.com/TechLabs-Berlin/st21-terraViz/blob/main/assets/images/image-logo-white.png" width="60" />
+</p>
+<h1 align="center">
+  TerraViz
+</h1>
+
 We identified the possible large data set that can be reached by the Github API, understood its elements and how we can access them. After the ideation session WD and DS understood what kind of information we would like to display, where to get this information from (Github), how the data can be provided (directly, via API and by providing further files).
 For the technical details of this part please refer to the file (DS readme).
 
@@ -21,7 +28,24 @@ Building a simple recommendation system based on the descriptions of the project
 Initially a manually created dataset of projects and their descriptions were used to develop the recommendation system. Initial exploratory data visualisation was performed (word clouds and heatmaps) to compare the results of the document's vectorisation. Vectorisation algorithms like bag of words and embedding (eg. BERT) were compared. For similarity analysis cosine similarity and Euclidean distance were evaluated. Cosine similarity was chosen for pairwise comparison. The results are then sorted and used for the recommendation system. The results of the recommendation models were further visualised as simple networks. For the final prototype similarity analysis after embedded vectorisation with BERT was implemented. 
 As a future outlook further information about the projects, like project keywords, involved tracks, semesters could be used to tailor the recommended project further. 
 
+<p align="center">
+    <img alt="development of the recommendation system" src="https://github.com/TechLabs-Berlin/st21-terraViz/blob/main/assets/images/image-logo-white.png" width="60" />
+</p>
+<h1 align="center">
+  TerraViz
+</h1>
+Some impressions from the development of the recommendation system:
+(left:  word cloud of project descriptions, right: heatmap, comparison of vectorization and similarity analysis algorithms)
+
+
 ##### Workflow of the DUAW project from Data Science perspective
+
+<p align="center">
+    <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/st21-terraViz/blob/main/assets/images/image-logo-white.png" width="60" />
+</p>
+<h1 align="center">
+  TerraViz
+</h1>
 
 Overall it was a very interesting project and journey and I am so glad to have been able to work closely with our web developer during the project, it was always a pleasure to talk things through. Additionally to our WD Mentor Bernardo I would like to thank Max, David and Mattis for their input for coming up with the structure for the recommendation system.
 
