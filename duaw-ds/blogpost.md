@@ -9,9 +9,6 @@ Therefore we decided our "Backend" will be the well documented Github repository
 <p align="center">
     <img alt="Backend Structure for DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Backend-DUAW.png" width="3000" />
 </p>
-<h1 align="center">
-  TerraViz
-</h1>
 
 We identified the possible large data set that can be reached by the Github API, understood its elements and how we can access them. After the ideation session WD and DS understood what kind of information we would like to display, where to get this information from (Github), how the data can be provided (directly, via API and by providing further files).
 For the technical details of this part please refer to the file (DS readme).
@@ -29,11 +26,8 @@ Initially a manually created dataset of projects and their descriptions were use
 As a future outlook further information about the projects, like project keywords, involved tracks, semesters could be used to tailor the recommended project further. 
 
 <p align="center">
-    <img alt="development of the recommendation system" src="https://github.com/TechLabs-Berlin/st21-terraViz/blob/main/assets/images/image-logo-white.png" width="60" />
+    <img alt="development of the recommendation system" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/Impressions%20on%20DS%20results.png" width="3000" />
 </p>
-<h1 align="center">
-  TerraViz
-</h1>
 Some impressions from the development of the recommendation system:
 (left:  word cloud of project descriptions, right: heatmap, comparison of vectorization and similarity analysis algorithms)
 
@@ -41,7 +35,7 @@ Some impressions from the development of the recommendation system:
 ##### Workflow of the DUAW project from Data Science perspective
 
 <p align="center">
-    <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/st21-terraViz/blob/main/assets/images/image-logo-white.png" width="60" />
+    <img alt="Data Science Workflow of the DUAW project" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/DS-images/duaw-ds/DUAW-%20Building%20of%20a%20recommendation%20system.ipynb" width="3000" />
 </p>
 <h1 align="center">
   TerraViz
