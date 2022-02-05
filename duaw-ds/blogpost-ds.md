@@ -22,8 +22,9 @@ Initially we came up with several ideas for interesting data visualisation proje
 
 We decided to focus on the display of the real project information, as the data set might be small at the moment (12-24 projects) but as Techlabs Berlin is growing, so will the number of available projects and the available dataset. Furthermore to increase and facilitate website engagement, we decided to implement a recommendation model based on the project. Like this the user is then offered the suggestions on which projects to explore next. 
 
-Building a simple recommendation system based on the descriptions of the project 
-Initially a manually created dataset of projects and their descriptions were used to develop the recommendation system. Initial exploratory data visualisation was performed (word clouds and heatmaps) to compare the results of the document's vectorisation. Vectorisation algorithms like bag of words and embedding (eg. BERT) were compared. For similarity analysis cosine similarity and Euclidean distance were evaluated. Cosine similarity was chosen for pairwise comparison. The results are then sorted and used for the recommendation system. The results of the recommendation models were further visualised as simple networks. For the final prototype similarity analysis after embedded vectorisation with BERT was implemented. 
+## Building a simple recommendation system based on the descriptions of the project 
+
+Initially a manually created dataset of projects and their descriptions were used to develop the recommendation system. Exploratory data visualisation was performed (word clouds and heatmaps) to compare the results of the document's vectorisation. Vectorisation algorithms like bag of words and embedding (eg. BERT) were compared. For similarity analysis cosine similarity and Euclidean distance were evaluated. Cosine similarity was chosen for pairwise comparison. The results are then sorted and used for the recommendation system. The results of the recommendation models were further visualised as simple networks. For the final prototype similarity analysis after embedded vectorisation with BERT was implemented. 
 As a future outlook further information about the projects, like project keywords, involved tracks, semesters could be used to tailor the recommended project further. 
 
 <p align="center">
