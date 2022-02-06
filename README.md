@@ -52,6 +52,7 @@ DUAW is a web app, created with React. and styled with MUI component library.
 
 
 To update the recommendations for display on the website:
+
 - The following python packages are needed: `XXXXX`
 - execute `recomender-system.ipynb` (in `Jupyter Notebook`)
 - update the content of the `recomendations.json` file:  https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/recomendations.json
