@@ -14,7 +14,7 @@ Technically, DUAW can be understood as a wrapper for GitHub repos. The project t
 
 ## UX links
 First of all, our final result 😊: \
-[Full clickable Figma prototype](https://www.figma.com/proto/YIKKTJPgyOL0AOu9MItDDk/DUAW?page-id=0%3A1&node-id=637%3A1337&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=637%3A1337&show-proto-sidebar=1) and [Commented Figma prototype](https://www.figma.com/file/YIKKTJPgyOL0AOu9MItDDk/DUAW?node-id=0%3A1)
+[Fully clickable Figma prototype](https://www.figma.com/proto/YIKKTJPgyOL0AOu9MItDDk/DUAW?page-id=0%3A1&node-id=637%3A1337&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=637%3A1337&show-proto-sidebar=1) and [commented Figma prototype](https://www.figma.com/file/YIKKTJPgyOL0AOu9MItDDk/DUAW?node-id=0%3A1)
 
 Also, find below all documents and files created from us during the entire UX process!
 - User Surveys: [Student survey](https://docs.google.com/document/d/1qHhPU9hWyBHcklyV1ASu-vVzAiHXyvMXJT3wriP04ko/edit?usp=sharing) and [TL track lead survey](https://docs.google.com/document/d/1ASI_R3cq-Efktr49WjQjQpvFyVTd--TmAgSAiS8vzaY/edit?usp=sharing)
@@ -22,14 +22,13 @@ Also, find below all documents and files created from us during the entire UX pr
 - Empathy Maps for the [students](https://drive.google.com/file/d/162-10k49VqOnX1cU5_-lGVlL157cbBEL/view?usp=sharing) and [TL leads](https://drive.google.com/file/d/1yzv_YbAk-wFd3cVpcoJQXFfP4Jgr7sdk/view?usp=sharing)
 - User Interviews and the results can be found [here](https://docs.google.com/document/d/1YYhvwDhfT1byrum8QgXy8gAq47tGknPDBAO0Xvixtr8/edit?usp=sharing)
 - [Personas and User Stories](https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948) were created in Miro
-- Click here for Brainstorming: https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=872307452811
-- Project Definition: https://docs.google.com/document/d/180n-NfzAqazW5d7ODMMTNZZb7mUgTDWCyop7Xoqt5EE/edit?usp=sharing
-- Features and Content: https://docs.google.com/document/d/1uy0pZmLog8HhA54yZ-aRwirAz2wS59DEfvu6pgB2sp0/edit?usp=sharing
-- Information Architecture: https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=561063932185
-
-User Flows: https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948
-Wireframes: https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=561063932185
-User testing results:https://docs.google.com/document/d/17SyAGu8maZM9Z61j-m7nZV6bSLKWivODYx8zAYvIpk0/edit?usp=sharing
+- [Brainstorming session](https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=872307452811)
+- [Project Definition](https://docs.google.com/document/d/180n-NfzAqazW5d7ODMMTNZZb7mUgTDWCyop7Xoqt5EE/edit?usp=sharing)
+- [Features and Content](https://docs.google.com/document/d/1uy0pZmLog8HhA54yZ-aRwirAz2wS59DEfvu6pgB2sp0/edit?usp=sharing)
+- [Information Architecture](https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=561063932185)
+- [User Flows](https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948)
+- [Wireframes](https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=561063932185)
+- [User testing results](https://docs.google.com/document/d/17SyAGu8maZM9Z61j-m7nZV6bSLKWivODYx8zAYvIpk0/edit?usp=sharing)
 
 ## Running the project on localhost
 
