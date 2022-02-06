@@ -21,7 +21,7 @@ Also, find below all documents and files created from us during the entire UX pr
 - User survey results for the [TL students](https://docs.google.com/document/d/1hc9gWdXALDiOBOawmYy6WQGOhNzg-44OpbcOWN-aBxQ/edit?usp=sharing) and [TL track leads]( https://docs.google.com/document/d/1E_-Be6OPRU1WA1nBYqhbamTS2DjbQRAQp2MP1njBmWw/edit?usp=sharing)
 - Empathy Maps for the [TL students](https://drive.google.com/file/d/162-10k49VqOnX1cU5_-lGVlL157cbBEL/view?usp=sharing) and [TL track leads](https://drive.google.com/file/d/1yzv_YbAk-wFd3cVpcoJQXFfP4Jgr7sdk/view?usp=sharing)
 - [User Interviews and their results](https://docs.google.com/document/d/1YYhvwDhfT1byrum8QgXy8gAq47tGknPDBAO0Xvixtr8/edit?usp=sharing)
-- [Personas and User Stories](https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948) were created in Miro
+- [Personas and User Stories](https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948)
 - [Brainstorming session](https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=872307452811)
 - [Project Definition](https://docs.google.com/document/d/180n-NfzAqazW5d7ODMMTNZZb7mUgTDWCyop7Xoqt5EE/edit?usp=sharing)
 - [Features and Content](https://docs.google.com/document/d/1uy0pZmLog8HhA54yZ-aRwirAz2wS59DEfvu6pgB2sp0/edit?usp=sharing)
