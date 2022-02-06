@@ -82,9 +82,7 @@ Overall it was a very interesting project and journey and I am so glad to have b
 
 
 # Final remarks
-The DUAW graduation presentation was a massive success, with the audience reacting with great excitement and supportive comments.
-
-This proved once again that the DUAW team was right in working on a solution that can bring an immediate real-world impact. Instead of something irrelevant that is hard to execute and needs additional proof of concept.
+The DUAW graduation presentation was a great success, with the audience reacting with excitement and supportive comments. This proved that the DUAW team was working on a solution that can bring an immediate real-world impact. 
 
 The goal is for DUAW to become the go-to platform for prospective TechLabs students, alumni, partners, and the TechLabs leadership team on an international scale. This is the project and community hub that can bring TechLabs to the next level and everyone is welcome to contribute to making this happen.
 
