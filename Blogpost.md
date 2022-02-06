@@ -6,7 +6,11 @@ Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Ce
 
 ## What is DUAW really?
 
-DUAW stands for the initials of the four tracks offered by Techlabs (Data Science, UX Design, Artificial Intelligence, and Web Development. At the same time, it translates into a visit, communicating, and getting together in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
+DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development. At the same time, it translates into a visit, communicating, and getting together in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
+
+<p align="center">
+    <img alt="DUAW logo" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/ux-files/logo2.jpg" width="400" />
+</p>
 
 From all these elements, It becomes evident that the team aimed to bring to life a space for existing students, leadership teams, partners, and alumni to present and visit projects, communicate and get together.
 
