@@ -1,6 +1,6 @@
 # DUAW
 
-### About
+## About
 \
 Welcome to the DUAW project! DUAW stands for visit, get together and communicate in Bisaya language and is also an abbreviation for the different bootcamp tracks of TechLabs: 
 * **D**ata Science
@@ -30,20 +30,26 @@ Also, find below all documents and files created from us during the entire UX pr
 - [Wireframes](https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=561063932185)
 - [User testing results](https://docs.google.com/document/d/17SyAGu8maZM9Z61j-m7nZV6bSLKWivODYx8zAYvIpk0/edit?usp=sharing)
 
-## Running the project locally
+## Web App
+
+DUAW is a web app, created with React. and styled with MUI component library.
 
 ## Running the project locally
 
-DUAW is a React App and
+1- Install node.js on your machine through this link: https://nodejs.org/en/
 
-After clonning the repository, and having the complete project files saved in a folder on your computer, open the project folder with your desired editor.
+2- After clonning the repository, and having the complete project files saved in a folder on your computer, open the project folder with your desired editor.
 
-To run the frontend part of the project:
+3- Enter the project folder in your Terminal `cd my-app` 
 
+5- run `npm start` to open the App.
 
-To run the backend part of the project:
-- To install all the backend dependencies: `npm install`
-- run `npm`
+4- At this point normally the app should automatically open in your browser. If not open a browser tab with this link: http://localhost:3000/ to see the app.
+
+5- To close the React App type `CTRL-C` 
+
+6- To install MUI used for styling run: `npm install @mui/material @emotion/react @emotion/styled`
+
 
 To update the recommendations for display on the website:
 - The following python packages are needed: `XXXXX`
