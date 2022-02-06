@@ -62,6 +62,15 @@ To update the recommendations for display on the website:
 
 For further details please refer to the Data Science Documentation: [`DS-Readme.md`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/README.md)
 
+## Inclusion of a project for display on DUAW website
+The current prototype is fetching data from an external github organisation: [https://github.com/faketechlabsberlin](https://github.com/faketechlabsberlin).
+
+To be presented on the DUAW website, the following steps need to be undertaken:
+1. Under `Settings`: the `about` section as well as `topics` need to be filled.
+2. To provide further information about the team, the [`project-information.json`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/project-information.json) file needs to be downloaded, updated with required information and added to first page of the repository.
+3. A project image (JPG format) needs to be uploaded at the first page of the repository and called `project-image.jpg` 
+4. Finally the entire repository needs to be forked to [https://github.com/faketechlabsberlin](https://github.com/faketechlabsberlin)
+
 ## Team members
 
 - UX | David
