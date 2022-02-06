@@ -3,6 +3,7 @@ import { createTheme } from '@mui/material/styles';
 
 
 const theme = createTheme({
+  
   typography: {
     fontFamily: [
       "Livvic", 
@@ -19,6 +20,9 @@ const theme = createTheme({
     },
     typography: {
       fontFamily: 'Livvic',
+    },
+    background: {
+      default: "#e4f0e2",
     },
   },
 });

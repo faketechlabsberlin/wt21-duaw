@@ -1,5 +1,5 @@
 body {
-  font-family: "Livvic", sans-serif;
+  font-family: "Livvic";
 }
 
 h1 {
@@ -8,19 +8,20 @@ h1 {
 }
 
 .cardHolder {
-  margin: 20;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  flex: 3 3 444;
 }
 
 .card {
   position: relative;
-  margin: 20px;
+  flex: 1 0 45%;
+  margin: 30px 0px;
 }
 
 .btn {
-  margin-top: auto;
+  margin-top: 10px;
 }
 
 .menuBar {
