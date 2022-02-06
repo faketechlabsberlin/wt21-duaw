@@ -51,7 +51,7 @@ DUAW is a web app, created with React. and styled with MUI component library.
 6- To install MUI used for styling run: `npm install @mui/material @emotion/react @emotion/styled`
 
 
-## Data Science - recommendation model
+## Update the recommendation model
 To update the recommendations for display on the website:
 1. The following python packages are needed:
    - `pandas`, `numpy`, `requests`, `json`
