@@ -1,6 +1,6 @@
 # DUAW
 
-## About
+### About
 \
 Welcome to the DUAW project! DUAW stands for visit, get together and communicate in Bisaya language and is also an abbreviation for the different bootcamp tracks of TechLabs: 
 * **D**ata Science
@@ -30,7 +30,11 @@ Also, find below all documents and files created from us during the entire UX pr
 - [Wireframes](https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=561063932185)
 - [User testing results](https://docs.google.com/document/d/17SyAGu8maZM9Z61j-m7nZV6bSLKWivODYx8zAYvIpk0/edit?usp=sharing)
 
-## Running the project on localhost
+## Running the project locally
+
+## Running the project locally
+
+DUAW is a React App and
 
 After clonning the repository, and having the complete project files saved in a folder on your computer, open the project folder with your desired editor.
 
