@@ -36,3 +36,9 @@ export async function getRepos() {
 export function getImage(repositoryName) {
   return `https://raw.githubusercontent.com/${ORG}/${repositoryName}/main/project-image.jpg`
 }
+
+
+export async function getRecomendations () {
+  const response = await axios.get('/recomendations.json')
+  return response.data
+}
