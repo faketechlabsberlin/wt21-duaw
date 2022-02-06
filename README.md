@@ -51,12 +51,16 @@ DUAW is a web app, created with React. and styled with MUI component library.
 6- To install MUI used for styling run: `npm install @mui/material @emotion/react @emotion/styled`
 
 
+## Data Science - recommendation model
 To update the recommendations for display on the website:
+1- The following python packages are needed:
+  - `pandas`, `numpy`, `requests`, `json`
+  - ML: `from sentence_transformers import SentenceTransformer` ,`from sklearn.metrics.pairwise import cosine_similarity`
+2- execute [`recomender-system.ipynb`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/recomender-system.ipynb) (in `Jupyter Notebook`)
+3- update the content of the `recomendations.json` file:  [recomendations.json](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/recomendations.json)
+4- the last step will require a pull request and merging by a member of the DUAW team
 
-- The following python packages are needed: `XXXXX`
-- execute `recomender-system.ipynb` (in `Jupyter Notebook`)
-- update the content of the `recomendations.json` file:  https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/recomendations.json
-- the last step will require a pull request and merging by a member of the DUAW team
+For further details please refer to the Data Science Documentation: [`DS-Readme.md`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/README.md)
 
 ## Team members
 
