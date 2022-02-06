@@ -24,7 +24,7 @@ Empathy Maps for the [students](https://drive.google.com/file/d/162-10k49VqOnX1c
 
 User Interviews and the results can be found [here](https://docs.google.com/document/d/1YYhvwDhfT1byrum8QgXy8gAq47tGknPDBAO0Xvixtr8/edit?usp=sharing)
 
-Personas and User Stories are stored in [Miro](https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948)
+[Personas and User Stories](https://miro.com/app/board/uXjVORCXl_Y=/?invite_link_id=683122939948) were created in Miro
 
 Click here for Brainstorming: https://miro.com/app/board/uXjVOZ1PSc0=/?invite_link_id=872307452811
 Project Definition: https://docs.google.com/document/d/180n-NfzAqazW5d7ODMMTNZZb7mUgTDWCyop7Xoqt5EE/edit?usp=sharing
