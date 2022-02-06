@@ -14,7 +14,7 @@ Technically, DUAW can be understood as a wrapper for GitHub repos. The project t
 
 ## UX links
 First of all, our final result 😊: \
-[Fully clickable Figma prototype](https://www.figma.com/proto/YIKKTJPgyOL0AOu9MItDDk/DUAW?page-id=0%3A1&node-id=637%3A1337&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=637%3A1337&show-proto-sidebar=1) and [commented Figma prototype](https://www.figma.com/file/YIKKTJPgyOL0AOu9MItDDk/DUAW?node-id=0%3A1)
+[Clickable Figma prototype](https://www.figma.com/proto/YIKKTJPgyOL0AOu9MItDDk/DUAW?page-id=0%3A1&node-id=637%3A1337&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=637%3A1337&show-proto-sidebar=1) and [commented Figma prototype](https://www.figma.com/file/YIKKTJPgyOL0AOu9MItDDk/DUAW?node-id=0%3A1)
 
 Also, find below all documents and files created from us during the entire UX process!
 - User surveys for [TL students](https://docs.google.com/document/d/1qHhPU9hWyBHcklyV1ASu-vVzAiHXyvMXJT3wriP04ko/edit?usp=sharing) and [TL track leads](https://docs.google.com/document/d/1ASI_R3cq-Efktr49WjQjQpvFyVTd--TmAgSAiS8vzaY/edit?usp=sharing)
