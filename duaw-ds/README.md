@@ -1,3 +1,30 @@
+
+
+# Github repositories
+
+[`project-information.json`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/project-information.json)
+
+[`html-Github-Api-requests-all.html`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/html-Github-Api-requests-all.html)
+
+
+# Preparation of recommendation model
+Evaluation of ML algorithms for recomendation model: [`DUAW- Building of a recommendation system.ipynb`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/DUAW-%20Building%20of%20a%20recommendation%20system.ipynb)
+
+Recomendation Model for DUAW project: [`recomender-system.ipynb`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/recomender-system.ipynb)
+
+ [`recomendations.json`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/recomendations.json)
+
+
+
+
+
+With DUAW, we created the platform for TechLabs teams and students to showcase their graduation projects.
+
+DUAW is a project hub that documents and presents all TechLabs graduation projects and the people behind them, through the years and from across the world. On highly visualized and detailed project pages, graduate students can present their projects for others to learn about them, upvote their projects, contact them with requests for collaborations, questions, recommendations, or feedback. DUAW aims to strengthen the TechLabs alumni community and support TechLabs to reach more students and partners while offering graduate projects the visibility and opportunities they deserve.
+
+On a technical level, the project showcasing functionality is enabled through the wrapping of git repositories. Since the graduation projects are already stored on GitHub, there is no need for a backend to host the projects. Instead, the project data, provided by the graduating teams, is fetched directly from their project repositories via the GitHub API requests. The site is built with React, CSS, HTML, and JavaScript and features a recommendation model to suggest other projects a visitor might find interesting, based on the project they currently visit. The recomendation model utilises vectorisation via a pre-trained BERT model and cosine similarity analysis which identifies the similarity between the projects based on their text descriptions.
+
+
 # The data science part involed two main aspects:
 
 
@@ -48,3 +75,5 @@ The following python packages are needed:
   - `import plotly.graph_objects as go`
   - `import networkx as nx`
 - export of JSON files : `import json`
+
+pandas, numpy, requests, matplotlib.pyplot, json`
