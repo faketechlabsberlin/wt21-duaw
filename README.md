@@ -76,6 +76,8 @@ For further details please refer to the Data Science Documentation: [`DS-Readme.
 ## Tech Stack
 - Git & GitHub
 - React
-- HTML, CSS, JavaScript
-- Python 3 with libraries: pandas, numpy, matplotlib
+- HTML
+- CSS
+- JavaScript
+- Python 3
 - Jupyter Notebook
