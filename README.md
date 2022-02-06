@@ -35,7 +35,7 @@ To update the recommendations for display on the website:
 
 - UX | David
 - UX | Celine
-- UX | Constantin
+- UX | Constantine
 - WD | Javad
 - DS | Constanze
 
@@ -44,8 +44,7 @@ To update the recommendations for display on the website:
 
 ## Tech Stack
 - Git & GitHub
-- Rest API
-- Node.js and Express
-- Python3
-- Python libraries: pandas, numpy, matplotlib, 
+- React
+- HTML, CSS, JavaScript
+- Python 3 with libraries: pandas, numpy, matplotlib
 - Jupyter Notebook
