@@ -6,7 +6,7 @@ Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Ce
 
 ### What is DUAW really?
 
-DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development. At the same time, it translates into _visit_, _communicating_, and _getting together_ in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
+DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development. At the same time, it translates into _visit_, _communicating_, and _getting together_ in the Bisaya language (Austronesian languages spoken in the Philippines). The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
 
 <p align="center">
     <img alt="DUAW logo" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/ux-files/logo2.jpg" width="400" />
@@ -38,9 +38,10 @@ The research phase was coming to an end, with the UX team finalizing its persona
 </p>
 
 # An increadible learning curve for Web development and Data Science
-A lot of ideas for a nice project, but to bring them to life, a well-constructed backbone and data structure were required. This became even more challengin with a tight personal situation since Javad was the only web developer in the team, while Constanze was the only data scientist.
+A lot of ideas for a nice project, but to bring them to life, a well-constructed backbone and data structure were required. This became even more challenging with a tight personal situation since Javad was the only web developer in the team, while Constanze was the only data scientist.
 
 ## Web development
+A little personal story from Javad: 
 The web development track was one challenge after another, and I loved it! 
 
 It started with a large volume of materials that I had to learn in less than a couple of months ranging from Bootstrap and JS to React and APIs, just to mention some. I was already overwhelmed with that whole amount of information that I faced the complexity of putting into practice those learnings into a real-world project. And as if it was not enough I also found myself after just a week to be the only one left in the dev team. And it was a blessing, for learning more! 
@@ -52,6 +53,7 @@ Through this process, of course, I faced a lot of roadblocks where each one turn
 As a UX designer, I started this course to gain a better understanding of frontend development to be a better UX designer. However, it turned into such a fascinating experience that left me with so much joy for all I learned so far that I can only call it the start of a long journey to become a better developer every day. 
 
 ##  Data science
+A little personal story from Constanze: 
 After an intense academic phase it was possible to start working closely in a team on a real project. Briefly learning Data Science in the DUAW project, meant working with information that is not yet in a well defined data set, implementing a backend structure to acquire this information and building a recommendation model based on text data. 
 
 The journey can be summarised in a few words: "That sounds very cool. I don't know how to build that… yet"
