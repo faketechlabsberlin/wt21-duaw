@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import { unstable_batchedUpdates } from "react-dom";
-import { getInfo, getRepo } from "../api";
+import { getInfo, getRecomendations, getRepo } from "../api";
 import ToolsList from "./ToolsList";
 import { 
   Grid,
@@ -18,6 +18,10 @@ import { Box } from "@mui/system";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
+import RecomendationsList from "./RecomendationsList";
+
+
+
 
 
 
@@ -25,36 +29,40 @@ import WhatshotIcon from '@mui/icons-material/Whatshot';
 function useRepoInfo(repositoryName) {
   const [fetchedRepo, setFetchedRepo] = useState(null);
   const [fetchedInfo, setFetchedInfo] = useState(null);
+  const [fetchedRecomendations, setFetchedRecomendations] = useState(null)
   useEffect(() => {
     Promise.all([
       getRepo(repositoryName),
-      getInfo(repositoryName)
-    ]).then(([repo, info]) => {
+      getInfo(repositoryName),
+      getRecomendations()
+    ]).then(([repo, info, recomendations]) => {
       unstable_batchedUpdates(() => {
         setFetchedRepo(repo)
         setFetchedInfo(info)
+        setFetchedRecomendations(recomendations)
       })
+      console.log(recomendations)
     })
   }, [repositoryName]);
-  return [fetchedRepo, fetchedInfo]
+  return [fetchedRepo, fetchedInfo, fetchedRecomendations]
 }
 
 
 const ProjectDetail = () => {
   const {repositoryName} = useParams();
-  const [fetchedRepo, fetchedInfo] = useRepoInfo(repositoryName)
+  const [fetchedRepo, fetchedInfo, fetchedRecomendations] = useRepoInfo(repositoryName)
 
+  if (fetchedRecomendations !== null){
+    console.log(fetchedRecomendations[repositoryName])
+  }
 
-
-  
-  console.log(fetchedRepo, fetchedInfo)
 
   return (
     <div>
       {fetchedRepo === null && 'loading...'}
+      {fetchedRecomendations === null && 'loading...'}
       {fetchedRepo && (
         
-        <>
         <Box sx={{ flexShrink: 1 }}>
           <Grid container spacing={{xs:1, md:2}} >
 
@@ -71,9 +79,6 @@ const ProjectDetail = () => {
                   <Typography color='primary' sx={{ border: 1, borderRadius: 1, display: 'inline', margin:'10px', padding:'1px 10px' }}>
                   {fetchedInfo.semester}
                   </Typography>
-                </CardContent>
-                <CardContent>
-                  <Typography variant='h5'>Short Description</Typography>
                 </CardContent>
                 <CardContent>
                   <Typography variant='subtitle2'>{fetchedRepo.updated_at}</Typography>
@@ -118,6 +123,7 @@ const ProjectDetail = () => {
             
           
             <Grid item xs={4} md={3}>
+
                   <Card 
                   sx={{ maxWidth: 300, margin:"70px 0px", padding:"20px" }}
                   elevation={3}
@@ -143,41 +149,45 @@ const ProjectDetail = () => {
                       <br/>
                     </CardContent>
                   </Card>
+
                   <Card 
                   sx={{ maxWidth: 300, margin:"70px 0px", padding:"20px" }} 
                   elevation={3}
                   >
                     <CardContent>
-                    <Typography variant='h6' style={{ fontWeight:"600" }}>
-                      Tools used
-                        <Grid style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems:"flex-start"}}>
-                          <ToolsList tools={fetchedInfo.tools}/>
-                        </Grid>
-                    </Typography>
-                    <br/>
+                      <Typography variant='h6' style={{ fontWeight:"600" }}>
+                        Tools used
+                          <Grid style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems:"flex-start"}}>
+                            <ToolsList tools={fetchedInfo.tools}/>
+                          </Grid>
+                      </Typography>
+                      <br/>
+                            <RecomendationsList recomendations={fetchedRecomendations[repositoryName]}/>
 
-                    <Typography variant='h6' style={{ fontWeight:"600" }}>
-                      Languages used
-                        <Grid style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems:"flex-start"}}>
-                          <Typography 
-                          sx={{ color:"text.primary", border: 1, borderRadius: 1, margin:'10px 10px 5px 0px', padding:'1px 10px' }}
-                          >
-                            {fetchedRepo.language}
-                          </Typography>
-                        </Grid>
-                    </Typography>
-
+                      <Typography variant='h6' style={{ fontWeight:"600" }}>
+                        Languages used
+                          <Grid style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems:"flex-start"}}>
+                            <Typography 
+                            sx={{ color:"text.primary", border: 1, borderRadius: 1, margin:'10px 10px 5px 0px', padding:'1px 10px' }}
+                            >
+                              {fetchedRepo.language}
+                            </Typography>
+                          </Grid>
+                      </Typography>
                     </CardContent>
                   </Card>
+
+                  
+
             </Grid>
           </Grid>
         </Box>
-      </>
+
+)}
       
-      )}
+
       </div>
   );
 }
-
 
 export default ProjectDetail;
