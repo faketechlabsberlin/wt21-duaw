@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,7 +24,7 @@
     
         </p>
  <!-- 2: Results from Second API request:-->
-    <h1> 2: What is in the repository "test-repository-1"? </h1>
+    <h1> 2: What is in the repository "wt21-duaw"? </h1>
         <p> 
             api url:            <span id="api_url2",      style="color:blue"></span><br /> <br />
             and the results from the second API requests:  <br /><br />
@@ -67,7 +66,7 @@
 // 0: Create custom urls for future API requests:
         const url = "https://api.github.com" ;
         const org = "faketechlabsberlin";
-        const inital_repo = "st21-stress-tracker";
+        const inital_repo = "wt21-duaw";
         const project_info_folder = "project-information";
         const project_info_file = "project-information.json";
         const project_info_path = "project-information.json";
@@ -104,7 +103,7 @@
         getData1();
 
 // 2: Second API request:
-        // const api_url2 = 'https://api.github.com/repos/faketechlabsberlin/test-repository-1';
+        // const api_url2 = 'https://api.github.com/repos/faketechlabsberlin/wt21-duaw';
         const api_url2 = new URL(url+"/repos"+"/"+org+"/"+inital_repo);
         async function getData2() {
             const response = await fetch(api_url2);
@@ -148,9 +147,9 @@
             
             // decode base64 encoded file content 
             var data4 = JSON.parse(atob(data3.content))
-            document.getElementById("project_name").textContent = data4.project_name;
-            document.getElementById("project_tools").textContent = data4.project_tools;
-            document.getElementById("project_status").textContent = data4.project_status;
+            document.getElementById("project_name").textContent = data4.name;
+            document.getElementById("project_tools").textContent = data4.tools;
+            document.getElementById("project_status").textContent = data4.status;
 
         }
 
@@ -161,4 +160,3 @@
    
    </script>
 </body>
-
