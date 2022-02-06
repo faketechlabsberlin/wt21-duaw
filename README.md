@@ -14,8 +14,8 @@ Technically, DUAW can be understood as a wrapper for GitHub repos. The project t
 
 ## UX links
 \
-Full clickable Figma prototype: https://www.figma.com/proto/YIKKTJPgyOL0AOu9MItDDk/DUAW?page-id=0%3A1&node-id=637%3A1337&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=637%3A1337&show-proto-sidebar=1
-Commented Figma prototype: https://www.figma.com/file/YIKKTJPgyOL0AOu9MItDDk/DUAW?node-id=0%3A1
+
+[Full clickable Figma prototype](https://www.figma.com/proto/YIKKTJPgyOL0AOu9MItDDk/DUAW?page-id=0%3A1&node-id=637%3A1337&viewport=241%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=637%3A1337&show-proto-sidebar=1) and [Commented Figma prototype](https://www.figma.com/file/YIKKTJPgyOL0AOu9MItDDk/DUAW?node-id=0%3A1)
 
 User Surveys: https://docs.google.com/document/d/1qHhPU9hWyBHcklyV1ASu-vVzAiHXyvMXJT3wriP04ko/edit?usp=sharing students, https://docs.google.com/document/d/1ASI_R3cq-Efktr49WjQjQpvFyVTd--TmAgSAiS8vzaY/edit?usp=sharing
 User Survey results: https://docs.google.com/document/d/1hc9gWdXALDiOBOawmYy6WQGOhNzg-44OpbcOWN-aBxQ/edit?usp=sharing students, https://docs.google.com/document/d/1E_-Be6OPRU1WA1nBYqhbamTS2DjbQRAQp2MP1njBmWw/edit?usp=sharing
