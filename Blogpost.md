@@ -1,10 +1,10 @@
 # The Making of DUAW: A project made from us for all of us
 
-It all started with an observation. It was the observation of the founder of DUAW - Constantine Dranganas - who saw early on that TechLabs graduation projects weren’t getting the visibility they deserve. With this in mind, he made the hypothesis that both TechLabs graduates and the leadership team weren’t really satisfied with the documentation of projects up to that point.
+DUAW started with the observation that [TechLabs](www.techlabs.org) graduation projects weren’t getting the visibility they deserve. With this in mind, the project initiator Constantine Dranganas made the hypothesis that both TechLabs graduates and the leadership team weren’t really satisfied with the documentation of projects up to that point.
 
-Along with David Dillmann (UX) Javad Raisi (WD) Constanze Cavalier (DS) and Celine Onwubiko (UX) they went on a mission to prove this hypothesis right or wrong. This is how DUAW originated.
+Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Celine Onwubiko (UX) they went on a mission to prove this hypothesis right or wrong. This is how DUAW originated.
 
-# What is DUAW really?
+## What is DUAW really?
 
 DUAW stands for the initials of the four tracks offered by Techlabs (Data Science, UX Design, Artificial Intelligence, and Web Development. At the same time, it translates into a visit, communicating, and getting together in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
 
