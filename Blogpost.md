@@ -4,7 +4,7 @@ DUAW started with the observation that [TechLabs](www.techlabs.org) graduation p
 
 Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Celine Onwubiko (UX) they went on a mission to prove this hypothesis right or wrong. This is how DUAW originated.
 
-## What is DUAW really?
+### What is DUAW really?
 
 DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development. At the same time, it translates into a visit, communicating, and getting together in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
 
@@ -14,18 +14,28 @@ DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Sc
 
 From all these elements, It becomes evident that the team aimed to bring to life a space for existing students, leadership teams, partners, and alumni to present and visit projects, communicate and get together.
 
-# Which were the actual needs of the main stakeholders (TechLabs leadership team and existing students)?
-# DUAW sounded like a great idea but did it correspond to the needs of its designated end users?
+### Which were the actual needs of the main stakeholders (TechLabs leadership team and existing students)?
 
+DUAW sounded like a great idea but did it correspond to the needs of its designated end users?
 To get an answer to this question and more, the UX team (Constantine, David, and Celine) got to work straight away. After defining the right questions for the stakeholder groups, two separate surveys were sent out to collect data. The results that came in aligned with what the team imagined originally. Empathy mapping and word clouds helped them visualize the survey results.
 
-Indeed, a platform like DUAW was missing for TechLabs to share with the world their impactful work and for graduates to communicate their projects and skills obtained. Both stakeholder groups could benefit from DUAW coming to life.
+The results indicated that indeed, a platform like DUAW was missing for TechLabs to share with the world their impactful work and for graduates to communicate their projects and skills obtained. Both stakeholder groups could benefit from DUAW coming to life. After reaching this more concretized project goal, additional interviews were conducted with potential visitors of the DUAW platform to get further insights for the upcoming ideation session.
 
-# But what was worth building? What features make the most sense? What could the team achieve in the given timeframe?
+### But what was worth building? What features make the most sense? What could the team achieve in the given timeframe?
 
-The next steps involved the whole DUAW team coming together to brainstorm and ideate, utilizing the stakeholder as a point of departure. A storm of ideas brought about the ones that were defined as the most interesting and valuable from the whole group. The team broke down the most voted ideas into five categories (Collaboration, Engagement, Presentation, Updates, Insights) and then evaluated them under impact and ease to execute.
+The next steps involved the whole DUAW team coming together to brainstorm and ideate, utilizing the stakeholder as a point of departure. A storm of ideas was condensed to the ones that were voted as the most interesting and valuable from the whole group. The team broke down the most voted ideas into five categories (Collaboration, Engagement, Presentation, Updates, Insights) and then evaluated them under impact and ease to execute.
 
-The outcome? Must do features, Could do features, Should do features, and Won’t do features.
+The outcome of this project ideation session? Must do features, Could do features, Should do features, and Won’t do features.
+
+The research phase was coming to an end, with the UX team finalizing its personas, working on user stories, flows, and information architecture while preparing for prototyping and testing.
+
+<p align="center">
+    <img alt="Personas" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/ux-files/personas.jpg" width="600" />
+</p>
+
+<p align="center">
+    <img alt="Early wireframes" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/ux-files/wireframes_overview.jpg" width="600" />
+</p>
 
 # An increadible learning curve for Web development and Data Science
 A lot of ideas for a nice project, but thats when it started. The ideas needed to be brought to live, which required a well documented backbone structure and a detailed implementation from the one Web developer and the one Data scientist in the team.
