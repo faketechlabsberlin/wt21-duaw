@@ -6,13 +6,13 @@ Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Ce
 
 ### What is DUAW really?
 
-DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development. At the same time, it translates into a visit, communicating, and getting together in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
+DUAW stands for the initials of the four tracks offered by Techlabs (**D**ata Science, **U**X Design, **A**rtificial Intelligence, and **W**eb Development. At the same time, it translates into _visit_, _communicating_, and _getting together_ in the Bisaya language (Austronesian languages spoken in the Philippines).The DUAW logo highlights the continuous movement of the TechLabs projects that are ever-evolving, as well as the connection of the four tracks, as they have to work together in the realization of projects.
 
 <p align="center">
     <img alt="DUAW logo" src="https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/ux-files/logo2.jpg" width="400" />
 </p>
 
-From all these elements, It becomes evident that the team aimed to bring to life a space for existing students, leadership teams, partners, and alumni to present and visit projects, communicate and get together.
+From all these elements, it becomes evident that the team aimed to bring to life a space for existing students, leadership teams, partners, and alumni to present and visit projects, communicate and get together.
 
 ### Which were the actual needs of the main stakeholders (TechLabs leadership team and existing students)?
 
@@ -38,7 +38,7 @@ The research phase was coming to an end, with the UX team finalizing its persona
 </p>
 
 # An increadible learning curve for Web development and Data Science
-A lot of ideas for a nice project, but thats when it started. The ideas needed to be brought to live, which required a well documented backbone structure and a detailed implementation from the one Web developer and the one Data scientist in the team.
+A lot of ideas for a nice project, but to bring them to life, a well-constructed backbone and data structure were required. This became even more challengin with a tight personal situation since Javad was the only web developer in the team, while Constanze was the only data scientist.
 
 ## Web development
 The web development track was one challenge after another, and I loved it! 
