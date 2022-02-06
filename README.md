@@ -60,7 +60,7 @@ To update the recommendations for display on the website:
 3.  update the content of the `recomendations.json` file:  [recomendations.json](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/recomendations.json)
 4. the last step will require a pull request and merging by a member of the DUAW team
 
-For further details please refer to the Data Science Documentation: [`DS-Readme.md`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/README.md)
+For further details please refer to the Data Science documentation: [`DS-Readme.md`](https://github.com/TechLabs-Berlin/wt21-duaw/blob/main/duaw-ds/README.md)
 
 ## Inclusion of a project for display on DUAW website
 The current prototype is fetching data from an external github organisation: [https://github.com/faketechlabsberlin](https://github.com/faketechlabsberlin).
