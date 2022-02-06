@@ -54,7 +54,7 @@ As a UX designer, I started this course to gain a better understanding of fronte
 ##  Data science
 After an intense academic phase it was possible to start working closely in a team on a real project. Briefly learning Data Science in the DUAW project, meant working with information that is not yet in a well defined data set, implementing a backend structure to acquire this information and building a recommendation model based on text data. 
 
-The journey can be summarised in a few words: "That sounds very cool. I don't know how build that… yet"
+The journey can be summarised in a few words: "That sounds very cool. I don't know how to build that… yet"
 
 ### Building a backbone and collecting data for display on DUAW Website 
 Initially WD and DS needed to identify a way to collect information to be displayed on the website and since we were working without a backend, we were going to fetch everything  through the Github API https://docs.github.com/en/rest. 
