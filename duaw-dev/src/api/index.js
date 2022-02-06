@@ -38,7 +38,7 @@ export function getImage(repositoryName) {
 }
 
 
-export async function getRecomendations () {
+export async function getRecomendations(repositoryName) {
   const response = await axios.get('/recomendations.json')
-  return response.data
+  return response.data[repositoryName]
 }
