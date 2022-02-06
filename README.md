@@ -42,7 +42,7 @@ DUAW is a web app, created with React. and styled with MUI component library.
 
 3- Enter the project folder in your Terminal `cd my-app` 
 
-5- run `npm start` to open the App.
+5- Run `npm start` to open the App.
 
 4- At this point normally the app should automatically open in your browser. If not open a browser tab with this link: http://localhost:3000/ to see the app.
 
