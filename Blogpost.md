@@ -2,7 +2,7 @@
 
 DUAW started with the observation that [TechLabs](www.techlabs.org) graduation projects weren’t getting the visibility they deserve. With this in mind, the project initiator Constantine Dranganas made the hypothesis that both TechLabs graduates and the leadership team weren’t really satisfied with the documentation of projects up to that point.
 
-Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Celine Onwubiko (UX) they went on a mission to prove this hypothesis right or wrong. This is how DUAW originated.
+Along with David Dillmann (UX), Javad Raisi (WD), Constanze Cavalier (DS) and Celine Onwubiko (UX) he went on a mission to prove this hypothesis right or wrong. This is how DUAW originated.
 
 ### What is DUAW really?
 
